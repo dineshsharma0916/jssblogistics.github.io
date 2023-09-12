@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.3.1 -->
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+  <link href="/node_modules/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"
+    integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+		<link rel="stylesheet" href="banner/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="banner/css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+		<link rel="stylesheet" href="banner/css/banner.css">
+</head>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+          <i class="fa fa-truck-fast" style="font-size:2rem;color: #FC8000;" role="status"></i>
+  </div>
+  <!-- Spinner End -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand ps-5" href="#" style="color:#FC8000;"><u><i class="fa fa-truck pe-2"
+              style="color: #ff8000;"></i>MY-LOGISTICS</u></a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler text-white"></span> -->
+          <i class="fa fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 me-5">
+            <li class="nav-item text-center">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--mobile nav bar start from here-->
+    <!-- Simulate a smartphone / tablet -->
+    <!-- Top Navigation Menu -->
+    <div class="topnav" >
+      <a class="navbar-brand ps-5" href="#" style="color:#FC8000;"><u><i class="fa fa-truck pe-2"
+            style="color: #ff8000;"></i>MY-LOGISTICS</u></a>
+      <div id="myLinks">
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 me-5">
+            <li class="nav-item text-center">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+  <main>
+    <div class="home-slider owl-carousel js-fullheight">
+      <div class="slider-item js-fullheight" style="background-image:url(images/truck_main.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+	          <div class="col-md-12 ftco-animate">
+	          	<div class="text w-100 text-center">
+	          		<h2>Transport and Logistics Solutions</h2>
+		            <h1 class="mb-3">Safe & secure</h1>
+	            </div>
+              <!-- <form action="#" class="search-box">
+                <div class="input-form">
+                    <input type="text" placeholder="Your Tracking ID" tabindex="0">
+                </div>
+                <div class="search-form">
+                    <a href="#" tabindex="0">Track &amp; Trace</a>
+                </div>	
+            </form> -->
+	          </div>
+	        </div>
+        </div>
+      </div>
+
+      <div class="slider-item js-fullheight" style="background-image:url(images/h1_hero.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+	          <div class="col-md-12 ftco-animate">
+	          	<div class="text w-100 text-center">
+	          		<h2>Transport and Logistics Solutions</h2>
+		            <h1 class="mb-3">
+                  Creative Solutions
+                  </h1>
+	            </div>
+              <!-- <form action="#" class="search-box">
+                <div class="input-form">
+                    <input type="text" placeholder="Your Tracking ID" tabindex="0">
+                </div>
+                <div class="search-form">
+                    <a href="#" tabindex="0">Track &amp; Trace</a>
+                </div>	
+            </form> -->
+	          </div>
+	        </div>
+        </div>
+      </div>
+
+      <div class="slider-item js-fullheight" style="background-image:url(banner/images/truck-loding.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+	          <div class="col-md-12 ftco-animate">
+	          	<div class="text w-100 text-center">
+	          		<h2>Transport and Logistics Solutions</h2>
+		            <h1 class="mb-3">Choose the right vehicle</h1>
+	            </div>
+              <!-- <form action="#" class="search-box">
+                <div class="input-form">
+                    <input type="text" placeholder="Your Tracking ID" tabindex="0">
+                </div>
+                <div class="search-form">
+                    <a href="#" tabindex="0">Track &amp; Trace</a>
+                </div>	
+            </form> -->
+	          </div>
+	        </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="our-info-area pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="single-info mb-30 shadow p-4 mb-5 bg-body rounded">
+                <div class="info-icon">
+                  <i class="fa fa-headset"></i>
+                </div>
+                <div class="info-caption">
+                  <p>Call Us Anytime</p>
+                  <span>+ (123) 1800-567-8990</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="single-info mb-30 shadow p-4 mb-5 bg-body rounded">
+                <div class="info-icon">
+                  <i class="fa fa-user-clock"></i>
+                </div>
+                <div class="info-caption">
+                  <p>Sunday CLOSED</p>
+                  <span>Mon - Sat 8.00 - 18.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="single-info mb-30 shadow p-4 mb-5 bg-body rounded">
+                <div class="info-icon">
+                  <i class="fa fa-location"></i>
+                </div>
+                <div class="info-caption">
+                  <p>C-Block, A24</p>
+                  <span>India, New Delhi - 110054</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5">
+        <div class="row row-sm">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="intro_text">
+              <h4>WELCOME TO OUR WEBSITE!</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, assumenda quaerat deleniti corrupti
+                recusandae hic, officiis soluta voluptatum accusantium exercitationem vitae architecto quis itaque
+                commodi odit porro nulla iusto dicta.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, assumenda quaerat deleniti corrupti
+                recusandae hic, officiis soluta voluptatum accusantium exercitationem vitae architecto quis itaque
+                commodi odit porro nulla iusto dicta.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="intro_img_div img-hover-zoom">
+              <img src="/banner/images/truck-loding.jpg" class="intro_img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="background: #dddddd5e;">
+      <div class="container mt-5 featured-card p-0">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 section-title-2 headline pera-content text-center">
+            <span class="sub-title">Featured</span>
+            <h2>The best qualities that make
+              <span>MY-LOGISTICS</span> special.
+            </h2>
+          </div>
+        </div>
+        <div class="row row-sm">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="d-flex">
+              <a class="card1 shadow p-3 mb-5 bg-body rounded card_slide_right" href="#">
+                <div class="featured-icon">
+                  <i class="fa-solid fa-coins"></i>
+                </div>
+                <h3>Transparent Pricing</h3>
+                <p class="small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae laudantium
+                  repellendus ducimus deleniti iusto voluptatum saepe accusamus hic et? Veniam ipsam sapiente pariatur
+                  repellendus sunt quaerat laboriosam, exercitationem esse nostrum.</p>
+                <div class="go-corner" href="#">
+                  <div class="go-arrow">
+                    →
+                  </div>
+                </div>
+              </a>
+              <a class="card1 shadow p-3 mb-5 bg-body rounded card_slide_fadein" href="#">
+                <div class="featured-icon">
+                  <i class="fa-solid fa-clock"></i>
+                </div>
+                <h3>Reals Time Tracking</h3>
+                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quibusdam natus error
+                  commodi, iure itaque dolores, quisquam nesciunt nam velit saepe eaque voluptatum doloribus alias esse
+                  sequi non ipsam aspernatur?</p>
+                <div class="go-corner" href="#">
+                  <div class="go-arrow">
+                    →
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="d-flex justify-content-center">
+              <!-- <a class="card1 shadow p-3 mb-5 bg-body rounded card_slide_left" href="#">
+                <div class="featured-icon">
+                  <i class="fas fa-warehouse"></i>
+                </div>
+                <h3>Warehoues Storage</h3>
+                <p class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero veritatis dolor cum
+                  quia? Repellendus perferendis repudiandae eos a impedit nisi quae harum beatae quidem veritatis
+                  incidunt, atque labore voluptates amet.</p>
+                <div class="go-corner" href="#">
+                  <div class="go-arrow">
+                    →
+                  </div>
+                </div>
+              </a> -->
+              <a class="card1 shadow p-3 mb-5 bg-body rounded card_slide_left" href="#">
+                <div class="featured-icon">
+                  <i class="fas fa-headset"></i>
+                </div>
+                <h3>24/7 Support</h3>
+                <p class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero veritatis dolor cum
+                  quia? Repellendus perferendis repudiandae eos a impedit nisi quae harum beatae quidem veritatis
+                  incidunt, atque labore voluptates amet.</p>
+                <div class="go-corner" href="#">
+                  <div class="go-arrow">
+                    →
+                  </div>
+                </div>
+              </a>
+              <a class="card1 shadow p-3 mb-5 bg-body rounded card_slide_left" href="#">
+                <div class="featured-icon">
+                  <i class="fas fa-truck-fast"></i>
+                </div>
+                <h3>On Time Delivery</h3>
+                <p class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero veritatis dolor cum
+                  quia? Repellendus perferendis repudiandae eos a impedit nisi quae harum beatae quidem veritatis
+                  incidunt, atque labore voluptates amet.</p>
+                <div class="go-corner" href="#">
+                  <div class="go-arrow">
+                    →
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card form_card shadow p-3 mb-5 rounded-1">
+              <div class="card-body form_card-body">
+                <h5 class="card-title form_title">Get a Quote For Free</h5>
+                <h2>Request a Free Quote</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti nostrum placeat debitis
+                  quidem magnam illum.</p>
+                <form class="row g-3 needs-validation" novalidate>
+                  <div class="col-md-6 position-relative">
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Name" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6 position-relative">
+                    <div class="input-group has-validation">
+                      <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                      <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Email"
+                        aria-describedby="validationTooltipUsernamePrepend" required>
+                      <div class="invalid-tooltip">
+                        Please choose a unique and valid username.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 position-relative">
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Contact Number"
+                      required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6 position-relative">
+                    <select class="form-select" id="validationTooltip04" required>
+                      <option selected disabled value="" style="color: rgba(106, 106, 106, 0.59);">--Select--</option>
+                      <option>First One</option>
+                      <option>Second One</option>
+                      <option>Third One</option>
+                      <option>Fourth One</option>
+                      <option>Fifth One</option>
+                    </select>
+                    <div class="invalid-tooltip">
+                      Please select a valid option.
+                    </div>
+                  </div>
+                  <div class="col-md-6 position-relative">
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="City of Deprature"
+                      required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6 position-relative">
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Incoterms" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6 position-relative">
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Weight" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 position-relative">
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Height" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 position-relative">
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Width" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 position-relative">
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Length" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-12 text-center mt-4">
+                    <button class="btn_form_submit btn-primary" type="submit">SUMBIT</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+       <!-- Service Start -->
+    <div class="container-xxl py-5">
+      <div class="container py-5">
+          <div class="text-center wow fadeInUp">
+              <!-- <h6 class="text-uppercase" style="color: #FC8000;">Our Services</h6>
+              <h1 class="mb-5">Explore Our Services</h1> -->
+              <span class="sub-title">Our Services</span>
+               <h2>Explore Our Services </h2>
+          </div>
+          <div class="row g-4">
+              <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                  <div class="service-item p-4 shadow p-3 mb-5 bg-body rounded">
+                      <div class="overflow-hidden mb-4">
+                          <img class="img-fluid" src="banner/images/truck-loding.jpg" alt="">
+                      </div>
+                      <h4 class="mb-3">Full Load Consignments</h4>
+                      <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="service-item p-4 shadow p-3 mb-5 bg-body rounded">
+                      <div class="overflow-hidden mb-4">
+                          <img class="img-fluid" src="banner/images/goods-transport-services.jpg" alt="">
+                      </div>
+                      <h4 class="mb-3">Goods Transportation</h4>
+                      <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                  <div class="service-item p-4 shadow p-3 mb-5 bg-body rounded">
+                      <div class="overflow-hidden mb-4">
+                          <img class="img-fluid" src="/images/service-3.jpg" alt="">
+                      </div>
+                      <h4 class="mb-3">Third Party Logistics</h4>
+                      <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                  <div class="service-item p-4 shadow p-3 mb-5 bg-body rounded">
+                      <div class="overflow-hidden mb-4">
+                          <img class="img-fluid" src="banner/images/warehousing.jpg" alt="">
+                      </div>
+                      <h4 class="mb-3">Warehousing & Distribution</h4>
+                      <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="service-item p-4 shadow p-3 mb-5 bg-body rounded">
+                      <div class="overflow-hidden mb-4">
+                          <img class="img-fluid" src="banner/images/Door-To-Door.jpg" alt="">
+                      </div>
+                      <h4 class="mb-3">Door to Door Deliveries</h4>
+                      <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                  <div class="service-item p-4 shadow p-3 mb-5 bg-body rounded">
+                      <div class="overflow-hidden mb-4">
+                          <img class="img-fluid" src="banner/images/supreme-packers.jpeg" alt="">
+                      </div>
+                      <h4 class="mb-3">Movers & Packers</h4>
+                      <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Service End -->
+
+    </section>
+    </div>
+  </main>
+
+ <!-- Footer Start -->
+ <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn"  style="margin-top: 6rem;">
+  <div class="container py-5">
+      <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Address</h4>
+              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>A-24 Street, New Delhi, Delhi</p>
+              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+              <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@mylogistics.com</p>
+              <div class="d-flex pt-2">
+                  <a class="footer_btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="footer_btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="footer_btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="footer_btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Services</h4>
+              <a class="footer_btn btn-link" href="">Air Freight</a>
+              <a class="footer_btn btn-link" href="">Sea Freight</a>
+              <a class="footer_btn btn-link" href="">Road Freight</a>
+              <a class="footer_btn btn-link" href="">Logistic Solutions</a>
+              <a class="footer_btn btn-link" href="">Industry solutions</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Quick Links</h4>
+              <a class="footer_btn btn-link" href="">About Us</a>
+              <a class="footer_btn btn-link" href="">Contact Us</a>
+              <a class="footer_btn btn-link" href="">Our Services</a>
+              <a class="footer_btn btn-link" href="">Terms & Condition</a>
+              <a class="footer_btn btn-link" href="">Support</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Newsletter</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <div class="position-relative mx-auto" style="max-width: 400px;">
+                  <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                  <button type="button" class="footer_btn btn-primary py-2 position-absolute top-0 end-0 mt-1 me-1" style="height: 40px; color: #fff; background: #FC8000; border:0px; width: 100px;">SignUp</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container">
+      <div class="copyright">
+          <div class="row">
+              <div class="col-lg-12 col-md-12 text-center text-md-center mb-3 mb-md-0">
+                <a class="navbar-brand ps-5" href="#" style="color:#FC8000;"><u><i class="fa fa-truck pe-2"
+                  style="color: #ff8000;"></i>MY-LOGISTICS</u><span style="color: #FFF;"> All Right Reserved.</span></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Footer End -->
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="banner/js/jquery.min.js"></script>
+  <script src="banner/js/popper.js"></script>
+  <script src="banner/js/owl.carousel.min.js"></script>
+  <script src="banner/js/main.js"></script>
+
+
+  <script src="/node_modules/@popperjs/core/lib/popper.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/node_modules/main.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+   $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $(".navbar").addClass("activecolor");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".navbar").removeClass("activecolor");
+        }
+    });
+});
+  </script>
+<script>
+  (function ($) {
+  "use strict";
+  // Spinner
+  var spinner = function () {
+      setTimeout(function () {
+          if ($('#spinner').length > 0) {
+              $('#spinner').removeClass('show');
+          }
+      }, 1);
+  };
+  spinner();
+})(jQuery);
+</script>
+<script>
+  function myFunction() {
+    const mobileMemu = document.getElementById("myLinks");
+    if (mobileMemu.style.display === "block") {
+      mobileMemu.style.display = "none";
+    } else {
+      mobileMemu.style.display = "block";
+    }
+  }
+</script>
+</body>
+</html>
